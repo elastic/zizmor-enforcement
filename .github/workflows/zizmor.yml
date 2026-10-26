@@ -26,6 +26,7 @@ jobs:
         with:
           advanced-security: false
           annotations: true
+          version: v1.31.1
           zizmor-config: |
             rules:
               adhoc-packages:
