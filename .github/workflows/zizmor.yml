@@ -60,6 +60,8 @@ jobs:
                 disable: true
               insecure-commands:
                 disable: true
+              insecure-url-scheme:
+                disable: true
               known-vulnerable-actions:
                 disable: true
               misfeature:
@@ -77,6 +79,8 @@ jobs:
               secrets-outside-env:
                 disable: true
               self-hosted-runner:
+                disable: true
+              self-repository:
                 disable: true
               stale-action-refs:
                 disable: true
