@@ -22,7 +22,7 @@ jobs:
           persist-credentials: false
 
       - name: Run zizmor 🌈
-        uses: elastic/zizmor-action@ef8f351713713ec30e2e87e4ee06d44822bb3896
+        uses: elastic/zizmor-action@539619dc7af53d6a15669db22f7a245360156db6
         with:
           advanced-security: false
           annotations: true
