@@ -25,6 +25,7 @@ jobs:
         uses: elastic/zizmor-action@539619dc7af53d6a15669db22f7a245360156db6
         with:
           advanced-security: false
+          fail-on-no-inputs: false
           annotations: true
           version: v1.31.1
           zizmor-config: |
