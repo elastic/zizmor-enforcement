@@ -27,7 +27,7 @@ jobs:
           advanced-security: false
           fail-on-no-inputs: false
           annotations: true
-          version: v1.31.1
+          version: v1.33.1
           zizmor-config: |
             rules:
               adhoc-packages:
